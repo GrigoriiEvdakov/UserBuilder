@@ -1,0 +1,29 @@
+=> 
+[32m#<Users::Create:0x00007ccae5fb6760[0m
+ @_interaction_errors[32m=[0m[32m#<ActiveInteraction::Errors []>[0m,
+ @_interaction_inputs[32m=[0m
+  {[33m:[0m[33mparams[0m=>{[31m[1m"[0m[31mname[0m[31m[1m"[0m=>[31m[1m"[0m[31mHHHHHHHHHHHHHHHHHHHHHH[0m[31m[1m"[0m, [31m[1m"[0m[31mpatronymic[0m[31m[1m"[0m=>[31m[1m"[0m[31mAnn[0m[31m[1m"[0m, [31m[1m"[0m[31memail[0m[31m[1m"[0m=>[31m[1m"[0m[31mjane.doe@example.com[0m[31m[1m"[0m, [31m[1m"[0m[31mage[0m[31m[1m"[0m=>[34m[1m25[0m, [31m[1m"[0m[31mnationality[0m[31m[1m"[0m=>[31m[1m"[0m[31mCanadian[0m[31m[1m"[0m, [31m[1m"[0m[31mcountry[0m[31m[1m"[0m=>[31m[1m"[0m[31mCanada[0m[31m[1m"[0m, [31m[1m"[0m[31mgender[0m[31m[1m"[0m=>[31m[1m"[0m[31mfemale[0m[31m[1m"[0m, [31m[1m"[0m[31minterests[0m[31m[1m"[0m=>[[31m[1m"[0m[31mReading[0m[31m[1m"[0m, [31m[1m"[0m[31mTraveling[0m[31m[1m"[0m], [31m[1m"[0m[31mskills[0m[31m[1m"[0m=>[[31m[1m"[0m[31mPython[0m[31m[1m"[0m, [31m[1m"[0m[31mDjango[0m[31m[1m"[0m]}},
+ @_interaction_raw_inputs[32m=[0m
+  {[33m:[0m[33mparams[0m=>
+    {[31m[1m"[0m[31mname[0m[31m[1m"[0m=>[31m[1m"[0m[31mHHHHHHHHHHHHHHHHHHHHHH[0m[31m[1m"[0m,
+     [31m[1m"[0m[31mpatronymic[0m[31m[1m"[0m=>[31m[1m"[0m[31mAnn[0m[31m[1m"[0m,
+     [31m[1m"[0m[31memail[0m[31m[1m"[0m=>[31m[1m"[0m[31mjane.doe@example.com[0m[31m[1m"[0m,
+     [31m[1m"[0m[31mage[0m[31m[1m"[0m=>[34m[1m25[0m,
+     [31m[1m"[0m[31mnationality[0m[31m[1m"[0m=>[31m[1m"[0m[31mCanadian[0m[31m[1m"[0m,
+     [31m[1m"[0m[31mcountry[0m[31m[1m"[0m=>[31m[1m"[0m[31mCanada[0m[31m[1m"[0m,
+     [31m[1m"[0m[31mgender[0m[31m[1m"[0m=>[31m[1m"[0m[31mfemale[0m[31m[1m"[0m,
+     [31m[1m"[0m[31minterests[0m[31m[1m"[0m=>[[31m[1m"[0m[31mReading[0m[31m[1m"[0m, [31m[1m"[0m[31mTraveling[0m[31m[1m"[0m],
+     [31m[1m"[0m[31mskills[0m[31m[1m"[0m=>[[31m[1m"[0m[31mPython[0m[31m[1m"[0m, [31m[1m"[0m[31mDjango[0m[31m[1m"[0m]}},
+ @_interaction_result[32m=[0m[36m[1mnil[0m,
+ @_interaction_valid[32m=[0m[36m[1mtrue[0m,
+ @params[32m=[0m
+  {[31m[1m"[0m[31mname[0m[31m[1m"[0m=>[31m[1m"[0m[31mHHHHHHHHHHHHHHHHHHHHHH[0m[31m[1m"[0m,
+   [31m[1m"[0m[31mpatronymic[0m[31m[1m"[0m=>[31m[1m"[0m[31mAnn[0m[31m[1m"[0m,
+   [31m[1m"[0m[31memail[0m[31m[1m"[0m=>[31m[1m"[0m[31mjane.doe@example.com[0m[31m[1m"[0m,
+   [31m[1m"[0m[31mage[0m[31m[1m"[0m=>[34m[1m25[0m,
+   [31m[1m"[0m[31mnationality[0m[31m[1m"[0m=>[31m[1m"[0m[31mCanadian[0m[31m[1m"[0m,
+   [31m[1m"[0m[31mcountry[0m[31m[1m"[0m=>[31m[1m"[0m[31mCanada[0m[31m[1m"[0m,
+   [31m[1m"[0m[31mgender[0m[31m[1m"[0m=>[31m[1m"[0m[31mfemale[0m[31m[1m"[0m,
+   [31m[1m"[0m[31minterests[0m[31m[1m"[0m=>[[31m[1m"[0m[31mReading[0m[31m[1m"[0m, [31m[1m"[0m[31mTraveling[0m[31m[1m"[0m],
+   [31m[1m"[0m[31mskills[0m[31m[1m"[0m=>[[31m[1m"[0m[31mPython[0m[31m[1m"[0m, [31m[1m"[0m[31mDjango[0m[31m[1m"[0m]},
+ @validation_context[32m=[0m[36m[1mnil[0m[32m>[0m

@@ -1,0 +1,28 @@
+version: "3"
+services:
+  user_builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/rails
+  db:
+    image: postgres:latest
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user_builder
+      POSTGRES_PASSWORD: <%= ENV["USER_BUILDER_DATABASE_PASSWORD"] %>
+      POSTGRES_DB: user_builder_production
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+networks:
+  backend:
+
+volumes:
+  db-data: {}
